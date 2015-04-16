@@ -1,7 +1,7 @@
 ---
 layout: default
 date:   2014-04-06 23:26:12
-photo: Vango_Case_Study.png
+photo: VangoCaseStudy.png
 caption_header: Case Study for Branch Metrics
 caption: A study on how our links drove growth for one of our first partners 
 ---

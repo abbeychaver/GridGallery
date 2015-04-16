@@ -1,8 +1,8 @@
-name: Photo gallery
+name: Abbey Chaver
 markdown: redcarpet
 pygments: true
 permalink: /:year/:month/:title/
-url: http://nadjetey.github.io/GridGallery/
+url: http://abbeychaver.github.io/
 author:
-    name: Nii Adjetey Sowah
+    name: Abbey Chaver
     twitter: #
