@@ -46,17 +46,27 @@
 }
 
 .nav {
-	background-color: #ccc;
+	background-color: #8A7BAF;
 	padding: 2em;
 	margin-bottom: 2em;
 	height: 5em;
+	bottom: 0;
+}
+
+.nav a {
+	float: right;
+	height: 100%;
+	&:hover { 
+		background-color: #fff;
+	}
 }
 
 .footer {
-	background-color: #ccc;
+	background-color: #8A7BAF;
 	padding: 2em;
 	margin-top: 2em;
 	height: 5em;
+	text-align: center;
 }
 
 
