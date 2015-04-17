@@ -46,27 +46,34 @@
 }
 
 .nav {
-	background-color: #8A7BAF;
+	background-color: #222;
 	padding: 2em;
 	margin-bottom: 2em;
 	height: 5em;
-	bottom: 0;
+	
 }
 
 .nav a {
+	color: #54FCFC;
 	float: right;
 	height: 100%;
-	&:hover { 
-		background-color: #fff;
-	}
+	width: 100px;
+	text-align: center;
+}
+
+.nav a:hover {
+	background-color: white;
+	color: #222;
 }
 
 .footer {
-	background-color: #8A7BAF;
+	background-color: #222;
 	padding: 2em;
 	margin-top: 2em;
-	height: 5em;
+	height: 9em;
 	text-align: center;
+	bottom: 0;
+	color: #54FCFC
 }
 
 
