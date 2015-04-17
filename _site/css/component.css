@@ -35,10 +35,11 @@
 }
 
 .entry img {
-	width: 40em;
-	margin: 5em auto;
+	width: 90%;
+	margin: 2em auto;
 	
 }
+
 
 /* Grid style */
 .grid-wrap {

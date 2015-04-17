@@ -24,13 +24,18 @@ body {
 }
 
 a {
-	color: #f0f0f0;
+	color: #47a3da;
 	text-decoration: none;
 	outline: none;
 }
 
 a:hover {
-	color: #000;
+	color: #222;
+	text-decoration: none;
+}
+
+p {
+	width: 50em;
 }
 
 .container > header {
