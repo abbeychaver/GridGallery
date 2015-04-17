@@ -1,7 +1,12 @@
 ---
-layout: default
+layout: post
 date:   2014-04-06 23:26:12
 photo: VangoCaseStudy.png
 caption_header: Case Study for Branch Metrics
-caption: A study on how our links drove growth for one of our first partners 
+caption: A study on how our links drove growth for one of our first partners
+
 ---
+
+
+<img src="https://abbeychaver.github.io/img/large/VangoCaseStudy1.png" style="max-width: 100px"/>
+<img src="https://abbeychaver.github.io/img/large/VangoCaseStudy2.png" style="max-width: 100px"/>

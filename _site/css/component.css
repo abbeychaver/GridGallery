@@ -34,6 +34,12 @@
 	margin: 0;
 }
 
+.entry img {
+	max-width: 100px;
+	margin: 10 auto;
+	overflow: hidden;
+}
+
 /* Grid style */
 .grid-wrap {
 	max-width: 69em;
@@ -113,12 +119,7 @@
 }
 
 .slideshow li {
-	width: 660px;
-	height: 560px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin: -280px 0 0 -330px;
+	
 	visibility: hidden;
 }
 
@@ -150,7 +151,7 @@
 	height: 100%;
 	background: #fff;
 	border: 50px solid #fff;
-	overflow: hidden;
+	
 }
 
 .slideshow figcaption {
