@@ -8,5 +8,5 @@ caption: A study on how our links drove growth for one of our first partners
 ---
 
 
-<img src="https://abbeychaver.github.io/img/large/VangoCaseStudy1.png" style="max-width: 100px"/>
-<img src="https://abbeychaver.github.io/img/large/VangoCaseStudy2.png" style="max-width: 100px"/>
+<img src="https://abbeychaver.github.io/img/large/VangoCaseStudy1.png" class="vangoImg"/>
+<img src="https://abbeychaver.github.io/img/large/VangoCaseStudy2.png" class="vangoImg"/>
