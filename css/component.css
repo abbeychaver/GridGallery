@@ -40,6 +40,11 @@
 	
 }
 
+.entry {
+	max-width: 50em;
+	margin: 5em;
+}
+
 
 /* Grid style */
 .grid-wrap {
