@@ -50,6 +50,7 @@
 	padding: 2em;
 	margin-bottom: 2em;
 	height: 5em;
+	color: white;
 	
 }
 
@@ -107,6 +108,7 @@
 .grid figcaption {
 	background: #e4e4e4;
 	padding: 25px;
+	border-bottom: 1px solid #ccc;
 }
 
 
