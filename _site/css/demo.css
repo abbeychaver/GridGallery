@@ -34,6 +34,11 @@ a:hover {
 	text-decoration: none;
 }
 
+.header {
+	background-color: #ccc;
+	padding: 2em;
+	margin-bottom: 2em;
+}
 
 .container > header {
 	width: 90%;

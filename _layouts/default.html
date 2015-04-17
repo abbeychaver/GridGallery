@@ -7,7 +7,7 @@
     <title>{{ site.name }}</title>
     <meta name="description" content="{{ site.name }}" />
     <meta name="keywords" content="jekyll, image gallery, image grid, template, masonry" />
-    <meta name="author" content="Nii Adjetey Sowah" />
+    <meta name="author" content="Abbey Chaver" />
 
     <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/demo.css" />
     <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/component.css" />
@@ -15,9 +15,19 @@
 
   </head>
   <body>
+  <div class="nav">
+    {{site.name}}
+      <a href ="https://abbeychaver.github.io">Portfolio</a>
+      <a href="https://abbeychaver.github.io/about/">About</li>
+  </div>
 
 
   {{ content }}
+
+  <div class="footer">
+    <p>Copyright 2015 Abbey Chaver</p>
+    <a href="mailto:">abbey.chaver@gmail.com</a>
+  </div>
 
     <script src="{{ site.url }}/js/imagesloaded.pkgd.min.js"></script>
     <script src="{{ site.url }}/js/masonry.pkgd.min.js"></script>

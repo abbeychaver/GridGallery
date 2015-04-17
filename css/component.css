@@ -45,6 +45,20 @@
 	margin: 5em;
 }
 
+.nav {
+	background-color: #ccc;
+	padding: 2em;
+	margin-bottom: 2em;
+	height: 5em;
+}
+
+.footer {
+	background-color: #ccc;
+	padding: 2em;
+	margin-top: 2em;
+	height: 5em;
+}
+
 
 /* Grid style */
 .grid-wrap {
