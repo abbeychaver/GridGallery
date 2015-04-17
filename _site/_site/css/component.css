@@ -46,11 +46,11 @@
 }
 
 .nav {
-	background-color: #D7D4EA;
+	background-color: #8A7BAF;
 	padding: 2em;
 	margin-bottom: 2em;
 	height: 5em;
-	
+	bottom: 0;
 }
 
 .nav a {
@@ -62,12 +62,11 @@
 }
 
 .footer {
-	background-color: #D7D4EA;
+	background-color: #8A7BAF;
 	padding: 2em;
 	margin-top: 2em;
-	height: 9em;
+	height: 5em;
 	text-align: center;
-	bottom: 0;
 }
 
 
