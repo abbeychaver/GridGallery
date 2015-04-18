@@ -52,9 +52,11 @@
 	
 }
 
-.nav h2 {
+.nav p {
 	font-size: 18px;
-	vertical-align: center;
+	text-transform: uppercase;
+	font-weight: 100;
+	padding: auto 1em;
 }
 
 .nav a {
@@ -83,9 +85,15 @@
 
 .lgImage {
 	background-color: #222;
-	padding: 1em;
+	padding: 2em;
 	max-width: 100%;
 }
+
+.piece {
+	margin: 0 auto;
+	max-width: 90%;
+}
+
 
 /* Grid style */
 .grid-wrap {

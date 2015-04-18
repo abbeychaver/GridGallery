@@ -14,8 +14,8 @@ Branch Metrics is a deeplinking company. For most people, that description doesn
 While our partner Vango used Branch links for several different growth strategies, including a referral program, I decided to focus on content-sharing functionality to present a simpler narrative arc. This case study clearly presents one of the ways Branch links provide value for app developers.
 
 <div class="lgImage">
-	<img src="https://abbeychaver.github.io/img/large/VangoCaseStudy1.png" class="vangoImg"/>
-	<img src="https://abbeychaver.github.io/img/large/VangoCaseStudy2.png" class="vangoImg"/>
+	<img src="https://abbeychaver.github.io/img/large/VangoCaseStudy1.png" class="piece"/>
+	<img src="https://abbeychaver.github.io/img/large/VangoCaseStudy2.png" class="piece"/>
 </div>
 
 
