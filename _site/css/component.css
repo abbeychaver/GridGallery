@@ -52,11 +52,16 @@
 	
 }
 
+.nav h2 {
+	font-size: 18px;
+	vertical-align: center;
+}
+
 .nav a {
 	color: #fff;
 	float: right;
 	height: 5em;
-	width: 4em;
+	width: 150px;
 	text-align: center;
 	padding-top: 2em;
 }
@@ -66,7 +71,7 @@
 	color: #222;
 }
 
-.footer {
+.footer, .footer a {
 	background-color: #303453;
 	padding: 2em;
 	margin-top: 2em;
@@ -79,6 +84,7 @@
 .lgImage {
 	background-color: #222;
 	padding: 1em;
+	max-width: 100%;
 }
 
 /* Grid style */
