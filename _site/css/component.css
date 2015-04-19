@@ -52,11 +52,9 @@
 	
 }
 
-.nav p {
-	font-size: 18px;
-	text-transform: uppercase;
-	font-weight: 100;
-	padding: auto 1em;
+.nav img {
+	height: 3em;
+	padding: 1em;
 }
 
 .nav a {
