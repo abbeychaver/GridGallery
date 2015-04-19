@@ -1,0 +1,25 @@
+---
+layout: post
+date:   2014-04-06 23:26:12
+photo: zeeva.png
+caption_header: Jekyll Photography Portfolio
+caption: A super-simple site for showcasing photos
+
+---
+
+### Jekyll Photography Portfolio
+
+This was fun project to encourage my sister in her creative endeavors. Based on a "Freelancer" Jekyll theme, I wanted this kid-friendly site to look cute but not cutesy. The one-page layout is responsive and super-navigable. The landing page features a portrait I created in Adobe Illustrator of my favorite eleven-year-old.
+
+
+<div class="lgImage">
+	<img src="{{site.url}}/img/large/zeevasite.png" class="piece"/>
+</div>
+
+
+See it [here.] (http://zeevachaver.github.io)
+
+
+
+
+

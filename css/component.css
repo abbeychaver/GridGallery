@@ -54,7 +54,8 @@
 
 .nav img {
 	height: 3em;
-	margin: 1em;
+	margin-top: 1.2em;
+	margin-left: 1.5em;
 }
 
 .nav a {
@@ -71,7 +72,7 @@
 	color: #222;
 }
 
-.footer, .footer a {
+.footer, {
 	background-color: #303453;
 	padding: 2em;
 	margin-top: 2em;
@@ -80,11 +81,8 @@
 	bottom: 0;
 	color: #fff;
 }
-
-.lgImage {
-	background-color: #222;
-	padding: 2em;
-	max-width: 100%;
+.footer a {
+	color: white;
 }
 
 .piece {
