@@ -11,10 +11,8 @@ caption: A super-simple site for showcasing photos
 
 This was fun project to encourage my sister in her creative endeavors. Based on a "Freelancer" Jekyll theme, I wanted this kid-friendly site to look cute but not cutesy. The one-page layout is responsive and super-navigable. The landing page features a portrait I created in Adobe Illustrator of my favorite eleven-year-old.
 
+<img src="{{site.url}}/img/large/zeevasite.png" class="piece"/>
 
-<div class="lgImage">
-	<img src="{{site.url}}/img/large/zeevasite.png" class="piece"/>
-</div>
 
 
 See it [here.] (http://zeevachaver.github.io)
