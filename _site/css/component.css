@@ -12,7 +12,7 @@
 /* General style */
 h1, h2, h3 {
 	font-family: Poiret One, 'Lato', sans-serif;
-	text-align: center;
+	text-align: left;
 	margin: 2em 0;
 }
 
@@ -176,7 +176,7 @@ h3 {
 }
 .skills td {
 	float: right;
-	margin: 10.01px;
+	margin: 10.005px;
 }
 
 .skills table {
@@ -188,7 +188,7 @@ h3 {
 }
 .Coursework {
 	background-color: #BBB7C6;
-	padding: 3em;
+	padding: 5em;
 }
 
 
