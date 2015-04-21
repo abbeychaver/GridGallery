@@ -37,14 +37,14 @@ a:hover {
 
 
 
-.container > header {
+.container-fluid > header {
 	width: 90%;
 	max-width: 69em;
 	margin: 0 auto;
 	padding: 2.875em 1.875em 1.875em;
 }
 
-.container > header h1 {
+.container-fluid > header h1 {
 	font-size: 2.125em;
 	line-height: 1.3;
 	margin: 0 0 0.6em 0;
@@ -52,7 +52,7 @@ a:hover {
 	font-weight: 400;
 }
 
-.container > header > span {
+.container-fluid > header > span {
 	display: block;
 	position: relative;
 	z-index: 200;
@@ -62,7 +62,7 @@ a:hover {
 	padding: 0 0 0.6em 0.1em;
 }
 
-.container > header > span span:after {
+.container-fluid > header > span span:after {
 	width: 30px;
 	height: 30px;
 	left: -12px;
@@ -72,7 +72,7 @@ a:hover {
 	position: relative;
 }
 
-.container > header > span span:hover:before {
+.container-fluid > header > span span:hover:before {
 	content: attr(data-content);
 	text-transform: none;
 	text-indent: 0;
@@ -89,12 +89,12 @@ a:hover {
 	background: #47a3da;
 }
 
-.container > header nav {
+.container-fluid > header nav {
 	float: right;
 	text-align: center;
 }
 
-.container > header nav a {
+.container-fluid > header nav a {
 	display: inline-block;
 	position: relative;
 	text-align: left;
@@ -106,11 +106,11 @@ a:hover {
 	border: 4px solid #47a3da;
 }
 
-.container > header nav a > span {
+.container-fluid > header nav a > span {
 	display: none;
 }
 
-.container > header nav a:hover:before {
+.container-fluid > header nav a:hover:before {
 	content: attr(data-info);
 	color: #47a3da;
 	position: absolute;
@@ -121,7 +121,7 @@ a:hover {
 	pointer-events: none;
 }
 
-.container > header nav a:hover {
+.container-fluid > header nav a:hover {
 	background: #47a3da;
 }
 
@@ -137,7 +137,7 @@ a:hover {
 	-webkit-font-smoothing: antialiased;
 }
 
-.container > header nav .bp-icon:after {
+.container-fluid > header nav .bp-icon:after {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -147,7 +147,7 @@ a:hover {
 	text-indent: 0;
 }
 
-.container > header nav a:hover:after {
+.container-fluid > header nav a:hover:after {
 	color: #fff;
 }
 
@@ -169,21 +169,21 @@ a:hover {
 
 @media screen and (max-width: 55em) {
 
-	.container > header h1,
-	.container > header nav {
+	.container-fluid > header h1,
+	.container-fluid > header nav {
 		float: none;
 	}
 
-	.container > header > span,
-	.container > header h1 {
+	.container-fluid > header > span,
+	.container-fluid > header h1 {
 		text-align: center;
 	}
 
-	.container > header nav {
+	.container-fluid > header nav {
 		margin: 0 auto;
 	}
 
-	.container > header > span {
+	.container-fluid > header > span {
 		text-indent: 30px;
 	}
 }
