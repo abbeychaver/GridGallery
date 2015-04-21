@@ -36,7 +36,7 @@ h3 {
 	color: white;
 	width: 100%;
 }
-.splash h2, h1 { 
+.splash h1 { 
 	text-align: left;
 }
 
@@ -86,7 +86,6 @@ h3 {
 	color: white;
 	position: fixed;
 	z-index: 1000;
-	opacity: 0.9;
 	width: 100%;
 	top: 0;
 	
@@ -178,7 +177,7 @@ h3 {
 }
 .skills td {
 	float: right;
-	margin: 11px;
+	margin: 10.1px;
 }
 
 .skills table {
