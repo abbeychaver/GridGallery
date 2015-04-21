@@ -14,11 +14,13 @@ h1 {
 	font-size: 30px;
 	font-weight: 300;
 	text-align: center;
+	margin: 2em;
 }
 
 h2 {
 	font-size: 20px;
 	font-weight: 200;
+
 }
 
 
@@ -30,6 +32,9 @@ h2 {
 	height: 40em;
 	color: white;
 	width: 100%;
+}
+.spash h3, h2 { 
+font-weight: 100;
 }
 
 .splash img {
@@ -150,44 +155,47 @@ h2 {
 }
 
 .grid figcaption {
-	background: #e4e4e4;
+	background: #BBB7C6;
 	padding: 25px;
 	border-bottom: 3px solid #ccc;
 }
 
 
 .courses td {
-        display: inline-block;
-        padding: 0.8em;
-        margin: 10px;
-        color: #1D204C;
-        font-weight: 300;
-        letter-spacing: 0.02em;
-        border: 1px solid #1D204C;
-        font-size: 1em;
-        
-    }
-    .skills table {
-        float: right;
-    }
-    .skills td {
-        display: inline-block;
-        padding: 0.8em;
-        margin: 10px;
-        color: #1D204C;
-        font-weight: 300;
-        letter-spacing: 0.02em;
-        float: right;
-        border: 1px solid #1D204C;
-        font-size: 1em;
-        
-         
-    }
-    .courses {
-        border-left: 1px solid #1D204C;
-        
-    }
-
+    display: inline-block;
+    padding: 0.8em;
+    margin: 10px;
+    color: #1D204C;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    border: 1px solid #1D204C;
+    font-size: 1em;
+    
+}
+.skills table {
+    float: right;
+}
+.skills td {
+    display: inline-block;
+    padding: 0.8em;
+    margin: 10px;
+    color: #1D204C;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    float: right;
+    border: 1px solid #1D204C;
+    font-size: 1em;
+    
+     
+}
+.courses {
+    border-left: 1px solid #1D204C;
+    
+}
+.Coursework {
+	background-color: #BBB7C6;
+	padding: 5em;
+}
 
 
 /* Example media queries (reduce number of columns and change slideshow layout) */
