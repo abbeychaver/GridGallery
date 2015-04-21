@@ -11,7 +11,7 @@
 
 /* General style */
 h1, h2, h3 {
-	font-family: 'Poiret One', 'Lato', sans-serif;
+	font-family: Poiret One, 'Lato', sans-serif;
 	text-align: center;
 	margin: 2em 0;
 }
@@ -37,7 +37,7 @@ h3 {
 	width: 100%;
 }
 .splash h1 { 
-	text-align: left;
+	
 }
 
 .splash img {
@@ -177,7 +177,7 @@ h3 {
 }
 .skills td {
 	float: right;
-	margin: 10.1px;
+	margin: 10.01px;
 }
 
 .skills table {
