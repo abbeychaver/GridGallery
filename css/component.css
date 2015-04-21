@@ -74,6 +74,7 @@ text-align: left;
 .entry {
 	max-width: 50em;
 	margin: 5em auto;
+	padding: 5em;
 }
 
 .nav {
