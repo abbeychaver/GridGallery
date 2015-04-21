@@ -1082,7 +1082,8 @@ th {
 }
 html {
   
-  font-size: 20px;
+  font-size: 16px;
+  letter-spacing: 0.02;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
