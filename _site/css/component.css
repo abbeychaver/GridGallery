@@ -16,7 +16,7 @@
 }
 
 .splash img {
-	width: 8em;
+	width: 15em;
 	margin: 2em;
 }
 
@@ -56,9 +56,11 @@
 
 .nav {
 	background-color: #1D204C;
-	margin-bottom: 2em;
 	height: 5em;
 	color: white;
+	position: fixed;
+	z-index: 1000;
+	opacity: 0.9;
 	
 }
 
