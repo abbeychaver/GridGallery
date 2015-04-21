@@ -11,8 +11,9 @@
 
 /* General style */
 h1, h2, h3 {
-	font-family: 'Poiret One', Helvetica, sans-serif;
+	font-family: 'Poiret One', 'Lato', sans-serif;
 	text-align: center;
+	margin: 2em 0;
 }
 
 h1 {
@@ -189,7 +190,6 @@ h3 {
 }
 .Coursework {
 	background-color: #BBB7C6;
-	padding: 5em;
 }
 
 
