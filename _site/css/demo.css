@@ -1,6 +1,7 @@
 /* General Blueprint Style */
 @import url(http://fonts.googleapis.com/css?family=Lato: 100, 200, 300);
 @import url(http://fonts.googleapis.com/css?family=Poiret+One: 400);
+@import url(http://fonts.googleapis.com/css?family=Quicksand);
 @font-face {
 	font-family: 'bpicons';
 	src:url('../fonts/bpicons/bpicons.eot');
@@ -27,7 +28,7 @@ body {
 }
 
 h1, h2, h3 {
-	font-family: 'Poiret One';
+	font-family: 'Quicksand';
 	text-align: center;
 }
 
