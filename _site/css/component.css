@@ -39,7 +39,7 @@ text-align: left;
 
 .splash img {
 	width: 20em;
-	margin: 3em;
+	margin: 0 auto;
 }
 
 .grid-gallery ul {
@@ -162,7 +162,7 @@ text-align: left;
 }
 
 
-.courses td {
+.courses td, .skills td {
     display: inline-block;
     padding: 0.8em;
     margin: 10px;
@@ -175,19 +175,6 @@ text-align: left;
 }
 .skills table {
     float: right;
-}
-.skills td {
-    display: inline-block;
-    padding: 0.8em;
-    margin: 10px;
-    color: #1D204C;
-    font-weight: 300;
-    letter-spacing: 0.02em;
-    float: right;
-    border: 1px solid #1D204C;
-    font-size: 1em;
-    
-     
 }
 .courses {
     border-left: 1px solid #1D204C;
