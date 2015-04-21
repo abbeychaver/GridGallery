@@ -10,17 +10,21 @@
 } /* Made with http://icomoon.io/app */
 
 /* General style */
+h1, h2, h3 {
+	font-family: Poiret One, Helvetica, sans-serif;
+	text-align: center;
+}
+
 h1 {
 	font-size: 30px;
-	font-weight: 100;
-	margin: 4em;
-	text-align: center;
+	text-transform: uppercase;
 }
 
 h2 {
 	font-size: 20px;
-	font-weight: 100;
-
+}
+h3 {
+	font-size: 16px;
 }
 
 
@@ -32,9 +36,9 @@ h2 {
 	color: white;
 	width: 100%;
 }
-.spash  h2, h1 { 
-font-weight: 100;
-text-align: left;
+.splash  h2, h1 { 
+	font-weight: 100;
+	text-align: left;
 }
 
 .splash img {
