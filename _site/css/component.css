@@ -10,6 +10,16 @@
 } /* Made with http://icomoon.io/app */
 
 /* General style */
+.splash {
+	background-color: #1D204C;
+	height: 40em;
+}
+
+.splash img {
+	width: 8em;
+	margin: 2em;
+}
+
 .grid-gallery ul {
 	list-style: none;
 	margin: 0;
@@ -45,7 +55,7 @@
 }
 
 .nav {
-	background-color: #303453;
+	background-color: #1D204C;
 	margin-bottom: 2em;
 	height: 5em;
 	color: white;
@@ -119,13 +129,9 @@
 }
 
 .grid figcaption {
-	background: white;
+	background: #e4e4e4;
 	padding: 25px;
-	border-bottom: 1px solid #888;
-	border-right: 1px solid #888;
-	border-left: 1px solid #888;
-	color: #888;
-	font-weight: 200;
+	border-bottom: 3px solid #ccc;
 }
 
 
