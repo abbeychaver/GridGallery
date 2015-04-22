@@ -102,7 +102,7 @@ h3 {
 	color: #fff;
 	float: right;
 	height: 5em;
-	width: 150px;
+	width: 15%;
 	text-align: center;
 	padding-top: 2em;
 }
@@ -189,10 +189,10 @@ h3 {
 .Coursework {
 	background-color: #BBB7C6;
 	padding-top: 3em;
-	padding-bottom: 3em;
+	padding-bottom: 5em;
 }
 .Coursework h1 {
-	margin-bottom: 2em;
+	margin-bottom: 3em;
 }
 
 
