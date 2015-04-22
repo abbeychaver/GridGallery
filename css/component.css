@@ -41,7 +41,8 @@ h3 {
 
 
 .splash img {
-	width: 20em;
+	width: 80%;
+	max-width: 50em;
 	margin: 0 auto;
 }
 
@@ -180,7 +181,6 @@ h3 {
 
 .skills table {
     float: right;
-    padding: 3em;
 }
 .courses {
     border-left: 1px solid #1D204C;
@@ -188,7 +188,11 @@ h3 {
 }
 .Coursework {
 	background-color: #BBB7C6;
-	padding-top: 2em;
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+.Coursework h1 {
+	margin-bottom: 2em;
 }
 
 
