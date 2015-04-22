@@ -176,11 +176,11 @@ h3 {
 }
 .skills td {
 	float: right;
-	margin: 10.001px;
 }
 
 .skills table {
     float: right;
+    padding: 3em;
 }
 .courses {
     border-left: 1px solid #1D204C;
@@ -188,7 +188,7 @@ h3 {
 }
 .Coursework {
 	background-color: #BBB7C6;
-	padding: 5em;
+	padding-top: 2em;
 }
 
 
