@@ -8,4 +8,4 @@ Hi, I'm Abbey. I'm currently in my second year at UC Berkeley, studying Operatio
 
 I chose Operations Research because it gives me tools for solving large-scale, complicated problems. But I'm not just a number-cruncher: I'm never happier than when I'm making something beautiful. Teaching myself design has been a very rewarding process, and I look forward to using both my quantitative and creative abilities as a professional.
 
-I'm currently considering internships for Summer 2016. Feel free to [contact me](abigailchaver@berkeley.com) if you have an exciting project.
+I'm currently considering internships for Summer 2016. Feel free to [contact me](mailto:abigailchaver@berkeley.com) if you have an exciting project.
