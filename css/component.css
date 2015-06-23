@@ -169,8 +169,8 @@ h3 {
 }
 
 .grid h1 {
-	padding-bottom: 2em;
-	padding-top: 1em;
+	padding-bottom: 3em;
+	padding-top: 2em;
 }
 
 .grid-gallery {
@@ -201,7 +201,7 @@ h3 {
     
 }
 .Coursework {
-	background-color: #E8E3FC;
+	background-color: white;
 	padding-top: 3em;
 	padding-bottom: 5em;
 }
