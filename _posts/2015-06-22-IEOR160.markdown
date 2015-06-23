@@ -1,7 +1,7 @@
 ---
 layout: post
 date:   2014-04-06 23:26:12
-photo: logistics.png
+photo: IEOR160.png
 caption_header: Project Scheduling Optimization
 caption: A linear programming project
 

@@ -11,8 +11,5 @@ caption: UI for a property management platform
 
 A brand new startup building out their minimum viable product, Butter needed a warm, easy to use dashboard. After researching their product, I designed a more obvious interface. Becuase landlords need to be confident that the dashboard will not cause them to overlook a responsibility, I made it clear where the user needed to respond to an item, and where they could passively view or interact with information. I simplified the information structure, and suggested features I considered missing. To make these suggestions easy to digest, I did a high fidelity mockup to convey the brand look I wanted to convey, and then presented a version with usability comments and suggestions.
 
-<img src="{{site.url}}/img/large/ButterUI.pdf" class="piece"/>
-<img src="{{site.url}}/img/large/ButterUI-comments.pdf" class="piece"/>
-
-
-Learn more about [Branch Metrics] (https://branch.io).
+<img src="{{site.url}}/img/large/ButterUI.png" class="piece"/>
+<img src="{{site.url}}/img/large/ButterUI-comments.png" class="piece"/>
