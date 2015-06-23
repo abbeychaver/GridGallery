@@ -1,22 +1,21 @@
 ---
 layout: post
 date:   2014-04-06 23:26:12
-photo: VangoCaseStudy.png
-caption_header: Branch Metrics Visual Brand Guide
+photo: VisualGuide.png
+caption_header: Visual Brand Guidelines
 caption: Guidelines for visual consistency
 
 ---
 
 ### Branch Metrics Visual Brand Guide
 
-Branch Metrics is a deeplinking company. For most people, that description doesn't mean very much - even for our target market of developers, deeplinking is not a universally understood feature. My goal in writing and designing this case study was to communicate how our linking product could solve a common problem for mobile apps: cross-platform content sharing. 
+Developing a brand identity is a critical step for a start-up to cultivate a loyal user base. As we got a better sense of the profile we were targeting - mobile app developers - we were able to make our message more consistent. Part of that was defining our visual identity: summarizing the way we look. 
 
-While our partner Vango used Branch links for several different growth strategies, including a referral program, I decided to focus on content-sharing functionality to present a simpler narrative arc. This case study clearly presents one of the ways Branch links provide value for app developers.
+I compiled a reference for critical brand essentials like logo, palette, font, and more. The project was a great opportunity to reflect on the brand we've built so far and where we plan to take it.
 
-<div class="lgImage">
-	<img src="https://abbeychaver.github.io/img/large/VangoCaseStudy1.png" class="piece"/>
-	<img src="https://abbeychaver.github.io/img/large/VangoCaseStudy2.png" class="piece"/>
+<div class="button">
+	<a href="https://abbeychaver.github.io/img/large/VisualGuide.pdf">See the Guide</a>
 </div>
 
 
-Learn more about [Branch Metrics] (https://branch.io) and [Vango](https://vangoart.co).
+Learn more about [Branch Metrics] (https://branch.io).

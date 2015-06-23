@@ -1,0 +1,17 @@
+---
+layout: post
+date:   2014-04-06 23:26:12
+photo: logistics.png
+caption_header: Project Scheduling Optimization
+caption: A linear programming project
+
+---
+
+### Project Scheduling Optimization
+
+This project was completed for an Operations Research class focusing on determinisic optimization. The problem was to maximize profit for a company that could invest in twelve projects over a period of three years. Given parameters about these projects' costs, revenue, duration, and assorted production constraints, we translated the problem into a linear program that we then solved with AMPL.
+
+
+<div class="button">
+	<a href="https://abbeychaver.github.io/img/large/IEOR160.pdf">Download the Paper</a>
+</div>
