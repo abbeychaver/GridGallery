@@ -2,8 +2,8 @@
 layout: post
 date:   2014-04-06 23:26:12
 photo: zeeva.png
-caption_header: Jekyll Photography Portfolio
-caption: A simple site for showcasing photos
+caption_header: Jekyll Portfolio
+caption: A simple site for showcasing work
 
 ---
 
