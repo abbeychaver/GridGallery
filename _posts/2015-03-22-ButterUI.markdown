@@ -2,14 +2,18 @@
 layout: post
 date:   2014-04-06 23:26:12
 photo: ButterUI.png
-caption_header: Landlord Dashboard Design
+caption_header: Dashboard Design
 caption: UI for a property management platform
 
 ---
 
-### Landlord Dashboard Design
+### Dashboard Design
 
-A brand new startup building out their minimum viable product, Butter needed a warm, easy to use dashboard. After researching their product, I designed a more obvious interface. Becuase landlords need to be confident that the dashboard will not cause them to overlook a responsibility, I made it clear where the user needed to respond to an item, and where they could passively view or interact with information. I simplified the information structure, and suggested features I considered missing. To make these suggestions easy to digest, I did a high fidelity mockup to convey the brand look I wanted to convey, and then presented a version with usability comments and suggestions.
+A brand new startup building out their minimum viable product, Butter needed an easy to use dashboard. After researching their product, I designed a more obvious interface with a warm, clean aesthetic. 
+
+Becuase landlords need to be confident that the dashboard won't allow them to miss a task, I made it clear where the user needed to respond to an item, and where they could passively view or interact with information. I simplified the information structure of the dashboard, and suggested features I considered missing.
+
+To make these suggestions easy to digest, I did a high fidelity mockup to convey the brand look, and then presented a version with usability comments and suggestions.
 
 <img src="{{site.url}}/img/large/ButterUI.png" class="piece"/>
 <img src="{{site.url}}/img/large/ButterUI-comments.png" class="piece"/>

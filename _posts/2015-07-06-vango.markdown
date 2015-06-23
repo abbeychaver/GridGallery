@@ -2,12 +2,12 @@
 layout: post
 date:   2014-04-06 23:26:12
 photo: VangoCaseStudy.png
-caption_header: Marketing Case Study for Branch Metrics
-caption: A copy/design project describing the functionality of our core product
+caption_header: Vango Case Study
+caption: A copy and design project for Branch Metrics
 
 ---
 
-### Marketing Case Study on Branch Links
+### Vango Case Study on Branch Links
 
 Branch Metrics is a deeplinking company. For most people, that description doesn't mean very much - even for our target market of developers, deeplinking is not a universally understood feature. My goal in writing and designing this case study was to communicate how our linking product could solve a common problem for mobile apps: cross-platform content sharing. 
 

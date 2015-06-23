@@ -2,14 +2,14 @@
 layout: post
 date:   2014-04-06 23:26:12
 photo: logistics.png
-caption_header: Amazon Logistics White Paper
+caption_header: Amazon Collider Competition
 caption: A model for optimizing last-mile transportation
 
 ---
 
-### Amazon Logistics White Paper
+### Amazon Collider Competition
 
-Amazon Logistics opened a competition to UC Berkeley's Industrial Engineering department. The challenge was to write a 6-page white paper solving an open-ended logistics problem:
+Amazon Logistics opened a competition to UC Berkeley's Industrial Engineering department. The challenge was to write a white paper solving an open-ended logistics problem:
 
 
 There is a daily distribution of packages to deliver. Three types of delivery drivers can fulfill this demand: guaranteed drivers, who must be paid whether or not there are packages to deliver; option drivers, who are paid a reservation price to be available but may be sent home if there are no packages for them; and spot drivers, who are only paid if there are packages left. Determine the wage each type of driver should be offered.

@@ -13,5 +13,5 @@ This project was completed for an Operations Research class focusing on determin
 
 
 <div class="button">
-	<a href="https://abbeychaver.github.io/img/large/IEOR160.pdf">Download the Paper</a>
+	<a href="https://abbeychaver.github.io/img/large/IEOR160.pdf">See the Paper</a>
 </div>

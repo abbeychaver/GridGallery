@@ -3,7 +3,7 @@ layout: post
 date:   2014-04-06 23:26:12
 photo: zeeva.png
 caption_header: Jekyll Photography Portfolio
-caption: A super-simple site for showcasing photos
+caption: A simple site for showcasing photos
 
 ---
 
