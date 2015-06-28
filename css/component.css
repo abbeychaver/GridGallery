@@ -112,7 +112,8 @@ p {
 }
 
 .portrait {
-	height: 100px;
+	height: 150px;
+	width: auto;
 	border-radius: 100%;
 	border: solid white 2px;
 
