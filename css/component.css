@@ -150,7 +150,7 @@ p {
 	
 }
 .grid li {
-	width: 25%;
+	width: 30%;
 	cursor: pointer;
 	background-color: white;
 	margin: 15px;
@@ -181,7 +181,7 @@ p {
 }
 
 .grid-gallery {
-	background-color: #dedede;
+	background-color: #1D204C;
 }
 
 

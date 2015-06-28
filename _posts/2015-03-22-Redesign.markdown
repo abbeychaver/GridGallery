@@ -21,7 +21,7 @@ We need to improve navigability, message strategy, and visual aesthetic. Our goa
 - Identifying and building missing content
 - Wireframing
 
-This project is still in the works, but it should be done by September- check back then.
+This project is still in the works, but it should be done by September - check back then.
 
 
 Learn more about [Branch Metrics] (https://branch.io).
