@@ -13,7 +13,7 @@ caption: An information architecture rehaul
 We need to improve navigability, message strategy, and visual aesthetic. Our goal is to increase high quality, converting signups on the site.
 
 ###What I'm Doing:
-- A/B testing and user profiling for messaging stratefy
+- A/B testing and user profiling for messaging strategy
 - Internal Data analysis to identify high value signups and most popular features
 - Navigation design based on user flow data from Google Analytics
 - Partner surveying to determine most important technical features and perceived brand identity

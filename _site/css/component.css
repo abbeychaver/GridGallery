@@ -152,7 +152,8 @@ p {
 	
 }
 .grid li {
-	width: 27%;
+	min-width: 27%;
+	max-width: 94%;
 	cursor: pointer;
 	background-color: white;
 	margin: 3%;
