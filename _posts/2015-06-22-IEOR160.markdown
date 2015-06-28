@@ -17,6 +17,9 @@ This project was completed for an Operations Research class focusing on determin
 - Defined logical constraints as linear inequalities
 - Coded the model in AMPL (a linear programming language) in order to solve
 
+###Result
+The paper detailing our model and solutions for the four variations of the problem is about 15 pages- you can read my code at the end.
+
 
 <div class="button">
 	<a href="https://abbeychaver.github.io/img/large/IEOR160.pdf">See the Paper</a>
