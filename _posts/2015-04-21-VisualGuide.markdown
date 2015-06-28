@@ -1,6 +1,6 @@
 ---
 layout: post
-date:   2014-04-06 23:26:12
+date:   2015-04-21 23:26:12
 photo: VisualGuide.png
 caption_header: Visual Brand Guidelines
 caption: A resource to ensure visual consistency

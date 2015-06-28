@@ -1,6 +1,6 @@
 ---
 layout: post
-date:   2014-04-06 23:26:12
+date:   2015-04-01 23:26:12
 photo: logistics.png
 caption_header: Amazon Collider Competition
 caption: A model for optimizing last-mile transportation

@@ -1,6 +1,6 @@
 ---
 layout: post
-date:   2014-04-06 23:26:12
+date:   2015-03-22 23:26:12
 photo: Redesign.png
 caption_header: Branch Site Redesign
 caption: An information architecture rehaul
