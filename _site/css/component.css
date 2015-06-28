@@ -26,7 +26,7 @@ h3 {
 	font-size: 16px;
 }
 p {
-	font-family: 'Cabin', 'Quicksand', Helvetica, sans-serif;
+	font-family: 'Quicksand', Helvetica, sans-serif;
 }
 
 .splash {
@@ -114,9 +114,7 @@ p {
 .portrait {
 	height: 150px;
 	width: auto;
-	padding: 25px;
-	border-radius: 100%;
-	border: solid white 2px;
+	margin: 25px;
 
 }
 
@@ -140,7 +138,6 @@ p {
 
 /* Grid style */
 .grid-wrap {
-	width: 70%;
 	margin: 0 auto;
 	padding: 0 1em 1.875em;
 }
@@ -150,13 +147,14 @@ p {
 }
 
 .grid ul {
-	width: 70%;
+	
 }
 .grid li {
 	width: 25%;
 	cursor: pointer;
 	background-color: white;
 	margin: 15px;
+	float: center;
 }
 .grid p {
 	text-align: center;
