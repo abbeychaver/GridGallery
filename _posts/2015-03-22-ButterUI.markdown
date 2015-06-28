@@ -2,18 +2,30 @@
 layout: post
 date:   2014-04-06 23:26:12
 photo: ButterUI.png
-caption_header: Dashboard Design
-caption: UI for a property management platform
+caption_header: Butter Dashboard
+caption: UX and UI for a property management platform
 
 ---
 
-### Dashboard Design
+#Dashboard Design
 
-A brand new startup building out their minimum viable product, Butter needed an easy to use dashboard. After researching their product, I designed a more obvious interface with a warm, clean aesthetic. 
+###Goal
+Butter needed to design their MVP, a dashboard for landlords to manage their properties with Butter's service.
 
-Becuase landlords need to be confident that the dashboard won't allow them to miss a task, I made it clear where the user needed to respond to an item, and where they could passively view or interact with information. I simplified the information structure of the dashboard, and suggested features I considered missing.
+###What I did
+- Categorized Butter's landlord services and content to make navigation intuitive
+- Profiled the landlord user to build the product around their needs
+- Organized content by user priority to make their flow through the dashboard natural
+- Suggested feature to let users keep more management information on Butter
+- Propose feed layout to maximize engagement and monetization opportunities
+- Place call to actions at points where conversions are most likely
+- Lay out page to be familiar and easy to use for less tech-savvy users
+- Cultivated a clean, organized aesthetic.
 
-To make these suggestions easy to digest, I did a high fidelity mockup to convey the brand look, and then presented a version with usability comments and suggestions.
+
+###Results
+
+Here's a high fidelity mockup of the home page, and a version with usability comments.
 
 <img src="{{site.url}}/img/large/ButterUI.png" class="piece"/>
 <img src="{{site.url}}/img/large/ButterUI-comments.png" class="piece"/>
