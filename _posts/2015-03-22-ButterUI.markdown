@@ -9,6 +9,10 @@ caption: UX and UI for a property management platform
 
 #Dashboard Design
 
+
+
+<div class-"col-xs-12 col-md-5"> </div>
+
 ###Goal
 Butter needed to design their MVP, a dashboard for landlords to manage their properties with Butter's service.
 
@@ -25,7 +29,10 @@ Butter needed to design their MVP, a dashboard for landlords to manage their pro
 
 ###Results
 
-Here's a high fidelity mockup of the home page, and a version with usability comments.
 
-<img src="{{site.url}}/img/large/ButterUI.png" class="piece"/>
-<img src="{{site.url}}/img/large/ButterUI-comments.png" class="piece"/>
+
+<div class="col-xs-12 col-md-7">
+	<img src="{{site.url}}/img/thumb/ButterUI.ong" class="piece"/>
+	<img src="{{site.url}}/img/large/ButterUI.png" class="piece"/>
+	<img src="{{site.url}}/img/large/ButterUI-comments.png" class="piece"/>
+</div>

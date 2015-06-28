@@ -2,20 +2,29 @@
 layout: post
 date:   2014-04-06 23:26:12
 photo: zeeva.png
-caption_header: Jekyll Portfolio
+caption_header: Zeeva's Lens
 caption: A simple site for showcasing work
 
 ---
 
-### Jekyll Photography Portfolio
+# Zeeva's Lens
 
-This was fun project to encourage my sister in her creative endeavors. Based on a "Freelancer" Jekyll theme, I wanted this kid-friendly site to look cute but not cutesy. The one-page layout is responsive and super-navigable. The landing page features a portrait I created in Adobe Illustrator of my favorite eleven-year-old.
+###Goal
+To get familiar with Jekyll, a framework that generates static. blog-aware sites (this site is built on it too), I made my little sister a kid-friendly website to display her creative work.
+
+###What I Did
+- Created a hero portrait with Adobe Illustrator
+- Customized a template with HTML and CSS
+- Hosted the site with Github Pages
+
+###Result
+See it [here.] (http://zeevachaver.github.io)
 
 <img src="{{site.url}}/img/large/zeevasite.png" class="piece"/>
 
 
 
-See it [here.] (http://zeevachaver.github.io)
+
 
 
 
