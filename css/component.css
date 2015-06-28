@@ -25,11 +25,9 @@ h2 {
 h3 {
 	font-size: 16px;
 }
-
 p {
-	font-family: Helvetica, sans-serif;
+	font-family: 'Cabin', 'Quicksand', Helvetica, sans-serif;
 }
-
 
 .splash {
 	padding-top: 10em;
@@ -42,11 +40,6 @@ p {
 }
 
 
-.splash img {
-	width: 80%;
-	max-width: 50em;
-	margin: 0 auto;
-}
 
 .grid-gallery ul {
 	list-style: none;
