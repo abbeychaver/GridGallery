@@ -7,9 +7,15 @@ caption: A linear programming project
 
 ---
 
-### Project Scheduling Optimization
+# Project Scheduling Optimization
 
-This project was completed for an Operations Research class focusing on determinisic optimization. The problem was to maximize profit for a company that could invest in twelve projects over a period of three years. Given parameters about these projects' costs, revenue, duration, and assorted production constraints, we translated the problem into a linear program that we then solved with AMPL.
+###Goal
+This project was completed for an Operations Research class focusing on determinisic optimization. The problem was to maximize profit for a company that could invest in twelve projects over a period of three years. Given parameters about these projects' costs, revenue, duration, and assorted production constraintsm, determine an optimal schedule.
+
+###What I Did
+- Defined decision variables and parameters
+- Defined logical constraints as linear inequalities
+- Coded the model in AMPL (a linear programming language) in order to solve
 
 
 <div class="button">

@@ -2,18 +2,26 @@
 layout: post
 date:   2014-04-06 23:26:12
 photo: Redesign.png
-caption_header: Website Redesign
-caption: Improving navigability and appeal to target audience
+caption_header: Branch Site Redesign
+caption: An information architecture rehaul
 
 ---
 
-### Website Redesign - in progress
+#Website Redesign - In Progress
 
-During my second summer at Branch Metrics, I'm leading the redesign of the website. My team's goal is to  improve signup rates and increase long-tail integrations of our SDK. 
+###Goal
+We need to improve navigability, message strategy, and visual aesthetic. Our goal is to increase high quality, converting signups on the site.
 
-I'm using partner surveys, demographic data, conversion rates from different channels, and website user flow data to understand our stickiest material. Using an agile approach, we are using A/B testing to validate new messaging and visual strategies.
+###What I'm Doing:
+- A/B testing and user profiling for messaging stratefy
+- Internal Data analysis to identify high value signups and most popular features
+- Navigation design based on user flow data from Google Analytics
+- Partner surveying to determine most important technical features and perceived brand identity
+- Organizing content to support optimal flow for target market
+- Identifying and building missing content
+- Wireframing
 
-We are also improving the information architecture of the site and designing user flows for our most important personas. We are in early stages, but intend to complete the visual design by the beginning of August and complete development before September.
+This project is still in the works, but it should be done by September. Check back then.
 
 
 Learn more about [Branch Metrics] (https://branch.io).
