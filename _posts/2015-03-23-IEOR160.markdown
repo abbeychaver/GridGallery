@@ -1,6 +1,6 @@
 ---
 layout: post
-date:   2015-06-22 23:26:12
+date:   2015-03-23 23:26:12
 photo: IEOR160.png
 caption_header: Project Scheduling Optimization
 caption: A linear programming project
