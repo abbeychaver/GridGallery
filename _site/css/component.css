@@ -139,6 +139,7 @@ p {
 
 /* Grid style */
 .grid-wrap {
+	width: 70%;
 	margin: 0 auto;
 	padding: 0 1em 1.875em;
 }
