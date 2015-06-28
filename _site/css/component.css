@@ -151,10 +151,10 @@ p {
 	
 }
 .grid li {
-	width: 30%;
+	width: 31%;
 	cursor: pointer;
 	background-color: white;
-	margin: 15px;
+	margin: 10px;
 	float: center;
 }
 .grid p {
@@ -177,8 +177,9 @@ p {
 }
 
 .grid-wrap h1 {
-	padding-bottom: 2em;
+	padding-bottom: 1em;
 	padding-top: 1em;
+	color: white;
 }
 
 .grid-gallery {
