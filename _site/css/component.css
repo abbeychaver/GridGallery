@@ -142,7 +142,6 @@ p {
 
 /* Grid style */
 .grid-wrap {
-	width: 87%
 	margin: 0 auto;
 	padding: 0 1em 1.875em;
 }
@@ -152,13 +151,13 @@ p {
 }
 
 .grid ul {
-	width: 87%
+	width: 87%;
 }
 .grid li {
 	width: 25%;
 	cursor: pointer;
 	background-color: white;
-	margin: 2% px;
+	margin: 2%;
 }
 .grid p {
 	text-align: center;
