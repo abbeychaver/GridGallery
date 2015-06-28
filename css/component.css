@@ -104,7 +104,7 @@ p {
 	top:0;
 	left:0;
 }
-.nav a {
+.navi {
 	color: #fff;
 	float: right;
 	height: 5em;
@@ -148,7 +148,7 @@ p {
 }
 
 .grid li {
-	width: 30%;
+	width: 25%;
 	float: center;
 	cursor: pointer;
 	background-color: white;
