@@ -151,6 +151,9 @@ p {
 	margin: 0 auto;
 }
 
+.grid ul {
+	width: 87%
+}
 .grid li {
 	width: 25%;
 	cursor: pointer;
