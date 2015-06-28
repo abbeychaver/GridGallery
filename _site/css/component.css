@@ -260,8 +260,12 @@ p {
 		width: 32em;
 	}
 	.nav img {
-	width: 30%;
-	height: auto;
+		width: 30%;
+		height: auto;
+		margin-top: 1.6em;
+	}
+	.navi {
+		width: 30%;
 	}
 }
 
