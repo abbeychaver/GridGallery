@@ -106,7 +106,7 @@ p {
 	padding-top: 2em;
 }
 
-.navi :hover {
+.navi:hover {
 	background-color: white;
 	color: #222;
 }
