@@ -160,7 +160,7 @@ p {
 	width: 25%;
 	cursor: pointer;
 	background-color: white;
-	margin: 2%;
+	margin: 15px;
 }
 .grid p {
 	text-align: center;
