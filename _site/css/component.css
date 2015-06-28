@@ -259,12 +259,13 @@ p {
 	.grid li {
 		width: 32em;
 	}
-}
-
-.nav img {
+	.nav img {
 	width: 30%;
 	height: auto;
+	}
 }
+
+
 
 @media screen and (max-width: 24em) {
 	.grid li {
