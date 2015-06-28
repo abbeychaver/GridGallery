@@ -147,7 +147,7 @@ p {
 }
 
 .grid ul {
-	width: 87%;
+	width: 70%;
 }
 .grid li {
 	width: 25%;
@@ -160,7 +160,7 @@ p {
 }
 
 .grid figure {
-	padding: 15px;
+	padding: 5px;
 	-webkit-transition: opacity 0.2s;
 	transition: opacity 0.2s;
 }
