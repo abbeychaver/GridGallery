@@ -179,11 +179,11 @@ p {
 .grid-wrap h1 {
 	padding-bottom: 1em;
 	padding-top: 1em;
-	color: white;
+	color: #1D204C;
 }
 
 .grid-gallery {
-	background-color: #1D204C;
+	background-color: #ededed;
 }
 
 
