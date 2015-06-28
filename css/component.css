@@ -148,10 +148,11 @@ p {
 }
 
 .grid ul {
+	width:87%;
 	
 }
 .grid li {
-	width: 31%;
+	width: 25%;
 	cursor: pointer;
 	background-color: white;
 	margin: 2%;

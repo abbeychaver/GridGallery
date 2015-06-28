@@ -32,7 +32,7 @@ Butter needed to design their MVP, a dashboard for landlords to manage their pro
 
 
 <div class="col-xs-12 col-md-7">
-	<img src="{{site.url}}/img/thumb/ButterUI.ong" class="piece"/>
+	<img src="{{site.url}}/img/thumb/ButterUI.png" class="piece"/>
 	<img src="{{site.url}}/img/large/ButterUI.png" class="piece"/>
 	<img src="{{site.url}}/img/large/ButterUI-comments.png" class="piece"/>
 </div>
