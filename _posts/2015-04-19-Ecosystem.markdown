@@ -3,7 +3,7 @@ layout: post
 date:   2015-04-19 23:26:12
 photo: ecosystem.png
 caption_header: Deeplink Ecosystem
-caption: A subtly-branded infographic
+caption: A subtly branded infographic
 
 ---
 
