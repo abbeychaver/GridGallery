@@ -1,0 +1,122 @@
+---
+layout: post
+modal-id: 2
+date: 2014-07-17
+img: Branch-home.png
+alt: image-alt
+project-date: April 2014
+client: Start Bootstrap
+description: Case Study - Data Focus
+title: Branch Website
+url: branch/
+---
+
+
+## Branch Website
+##### Case Study - Data Focus
+
+
+######Summary
+This summer, I managed the website redesign at Branch, a deep linking start-up.  My role was to guide the project from research and goal setting through content generation, information architecture, design, and development.  This case study focuses on the use of qualitative and quantitative data to guide decisions. 
+
+######An introduction to the deep linking market
+Imagine your friend messages you a YouTube video. If you click the link on mobile, you’d prefer to see the video in the YouTube app than on their mobile website, right? The native app experience will always be better than the mobile web version. 
+
+That’s what deep links do- they deliver mobile users directly to app content for a richer, more engaging experience. It’s pretty hard to do right: one link needs to route Android, iOS, and desktop users to the right app or web page. When users don’t have the app, the link must route them through the app store without “forgetting” where the user wanted to go, then deep link them to the right content post-install. [Here’s] (http://techcrunch.com/2015/08/20/the-second-coming-of-deep-linking/) a cool article Techcrunch published about our data on deep linked vs non-deep linked experiences. (Keep an eye out for my swanky data visualizations.)
+
+The deep linking space is fragmented- most companies offer only a piece of the solution. To help developers understand and navigate their options, I created a visual map of the industry: 
+
+<div class="row">
+	<div class="col-md-8 col-md-push-2">
+		<img src="{{site.baseurl}}/img/portfolio/Ecosystem.png">
+	</div>
+</div>
+
+Branch links cover every case and support all other deep linking standards, making them the most convenient way to index app content for discovery through search, social, and advertising. They also allow app companies to collect and export attribution data to their analytics platforms. And there’s more- we provide features like deep linked referrals and auto-generated previews to create compelling user experiences by passing contextual link data to the app.
+
+######Challenge
+Just explaining the problem is difficult- describing the full extent of our solution is even harder. While Branch has a huge competitive advantage in terms of functionality, we face a great challenge in communicating that advantage.
+But as a rapidly growing and well-funded start-up in a hot space, we’re setting aggressive goals for SDK adoption, and our website needs to be up to the challenge of guiding partners through integration as painlessly as possible.
+
+######Researching our audience
+
+I wanted to get some data about what messages were resonating with our partners. Working with our sales team, I collected a number of value propositions, like: 
+
+- Branch provides accurate attribution data
+
+- Branch provides organic growth features 
+
+- Branch is free
+
+and then broader identity characteristics, such as:
+
+- Branch makes my life easier
+
+- Branch is a flexible solution I can use to build anything
+
+- Branch’s technology is reliable
+
+and asked about 30 partners to rank their top three or each in a short, two-question survey. Obviously, the methodology wasn’t perfect – we used a small sample size consisting of early adopters we had good relationships with – but a couple results were consistent enough to be taken seriously. The most interesting thing (to me) was that the survey invalidated my hunch. 
+
+I love how customizable our product is; it can be used to build whatever you want (unlike deep links that only work on a single platform, or offer only a few rigid features). Branch is a tool that lets you build any user experience you want but didn’t think was possible- that’s the story that captivated me. That’s why it’s so exciting and meaningful to work at Branch. But the data did not support that at all, other attributes were far more popular. This was a really important lesson for me to recognize that internal perceptions of the company mission are not necessarily as inspiring externally. 
+
+This research was really helpful for defining our direction, and our new homepage reflects our commitment to making developers’ lives easier and providing an ultrareliable service.
+
+<div class="row">
+	<div class="col-md-8 col-md-push-2">
+		<img src="{{site.baseurl}}/img/portfolio/branch-homepage.png">
+	</div>
+</div>
+
+
+
+######Analyzing website data
+So we had a better sense of what we were pitching and who we were pitching it to: we needed to figure out how to translate that understanding into a well-performing website.
+
+We started by digging into our Google Analytics data for the existing website to identify which pages were getting the most traffic. From this data, we prioritizd key pages. One of our most highly-trafficked pages was our Features page (as with most developer platforms).
+
+Our features page was originally marketing-focused: we described our features as “web-to-app optimization,” “organic growth optimization,” and the like, sending users on a bit of a wild goose chase to see actual screenshots of what Branch links could provide.
+So we reorganized the page to list key tangible features, like our deep linked content sharing sheets and referral program. We put together a new version and ran an A/B test with the original.
+
+But it failed! Signup conversions were markedly lower on the new version. We couldn’t understand why- the new page was way clearer.  We went over it again and – whoops - the new page didn’t have a giant conversion button in the hero like the original did. In fact, the original only had one single conversion point, and it was visible before the user had a chance to see any of the content on that page – yet it still performed significantly better. Once we added a sign-up button to the hero on the variation page, it outperformed the original by about 20%. D’oh.
+
+One of the more interesting insights from GA was that our pricing page received a ton of traffic, even though it was only accessible in a dropdown menu labeled “more,” and in the footer. Having seen a lot of excitement from partners about our free service – but also some confusion – we needed to make our pricing information easier to find (we didn’t even mention it on our homepage) and more transparent.
+
+We don’t sell data, we won’t start charging for services, and our ultimate monetizable product, a content discovery portal, will only benefit developers. So we improved our pricing page to communicate that, and we added references to our price on the homepage.
+
+Essentially, going through our traffic data drew our attention to key pages and what we needed to do to improve them and make them more accessible.
+
+######Planning the project
+I carefully went through every page on the site. I went through a ridiculous number of index cards grouping and ordering pages to get a handle on how to organize information and the typical flows archetypal users would take.
+
+
+<div class="row visualizations text-center">
+	<div class="col-md-8 col-md-push-2">
+		<img src="{{site.baseurl}}/img/portfolio/cards.png">
+		<i>The result of several hours of shuffling</i>
+	</div>
+</div>
+
+
+
+I created a list of pages, identifying what needed to be done for each:
+- Content changes (information structure or just wording)
+- New assets (photos, diagrams, or illustrations)
+- Technically complicated interactions (anything more than a CSS animation)
+- Small visual adjustments (eg type improvements)
+Based on which pages referred to each other, priority pages, and other scheduling constraints, I set an order for designing and developing all of the necessary pages.
+
+######Coordinating the Team
+I got to work with a lot of great folks at Branch on this project. The project was mainly owned by three people: me, my supervisor Will Lindemann, who contributed a lot on the content end and guided me in managing the project, and a super talented visual designer, Natali Rodriguez. After going back and forth on the homepage design a little inefficiently, we established a streamlined process to respect: Content>Design>Development. We agreed to do as little backtracking as possible. While more complicated projects benefit from Agile methodology, we found that in order to meet deadlines and keep pushing forward, we had to be disciplined about committing to our decisions.
+
+We mainly gathered content suggestions from the sales team, as they had exceptional understanding of partner concerns and values. We also talked to engineering, both about the product and as our target market, getting a sense of what they look for when searching for plug-in solutions. 
+
+Next, Will or I would sketch a wireframe of the content on paper or Balsamiq, Natali or I would do the visual design in Sketch, and we would coordinate with our awesome developer to get the page up and working on our site, which runs on Jekyll.
+
+
+######Results
+
+Just before a major product launch, we were able to successfully go live and present our new, clearer site to the 10,000 new visitors we received in the three days after the launch.
+
+See the site and learn more at [branch.io](branch.io).
+

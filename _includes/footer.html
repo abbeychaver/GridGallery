@@ -1,0 +1,24 @@
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <ul class="list-inline">
+                            {% for network in site.social %}
+                            <li>
+                                <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
+                            </li>
+		                    {% endfor %}
+                        </ul>
+                    </div>
+                    <div class="row footer-col ">
+                        <div class="col-md-4 col-md-push-4 copyright">
+                            Copyright &copy; {{ site.footer.copyright }} 20{{ site.time | date: '%y' }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
