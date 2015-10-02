@@ -44,7 +44,7 @@ I reinvisioned the pinned items as an Inbox. Again, because this area was the mo
 <div class="row visualizations">
 	<div class="col-md-3 col-sm-4"><img class="border" src="{{site.baseurl}}/img/portfolio/Butter/Prototype/Inbox.png"></div>
 	<div class="col-md-3 col-sm-4"><img class="border" src="{{site.baseurl}}/img/portfolio/Butter/Prototype/Proposal.png"></div>
-	<div class="col-md-3 col-sm-4"><img class="border" src="{{site.baseurl}}/img/portfolio/Butter/Prototype/Proposal-Item-Removed.png"></div>
+	<div class="col-md-3 col-sm-4"><img class="border" src="{{site.baseurl}}/img/portfolio/Butter/Prototype/Proposal-Item-removed.png"></div>
 	<div class="col-md-3 col-sm-4"><img class="border" src="{{site.baseurl}}/img/portfolio/Butter/Prototype/Proposal-add-recipe.png"></div>
 	<div class="col-md-3 col-sm-4"><img class="border" src="{{site.baseurl}}/img/portfolio/Butter/Prototype/Proposal-recipe-added.png"></div>
 	<div class="col-md-3 col-sm-4"><img class="border" src="{{site.baseurl}}/img/portfolio/Butter/Prototype/Make-it-happen-confirmation.png"></div>
