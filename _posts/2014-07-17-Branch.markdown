@@ -64,7 +64,7 @@ This research was really helpful for defining our direction, and our new homepag
 
 <div class="row">
 	<div class="col-md-8 col-md-push-2">
-		<img src="{{site.baseurl}}/img/portfolio/branch-homepage.png">
+		<img src="{{site.baseurl}}/img/portfolio/Branch-homepage.png">
 	</div>
 </div>
 
