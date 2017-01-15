@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hypothesis Testing on Sales</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Data Science at UC Berkeley">
+    <link rel="canonical" href="http://localhost:4000/2016/05/14/APT.html">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
+
+    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link rel="stylesheet" href="/style.css">
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css">
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:100,300,400,700,300italic" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
+    
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+	<body>
+		   <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    MENU
+                </button>
+                <a class="navbar-brand" href="http://localhost:4000#page-top">Abigail Chaver</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="http://localhost:4000#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="http://localhost:4000#portfolio">Projects</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="http://localhost:4000#about">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="http://localhost:4000#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+<header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                
+                    <div class="intro-text ">
+                        
+                        <h1 class="post-heading">Hypothesis Testing on Sales</h1>
+                        <h3 class="post-heading">APT Case Competition on Time Series Data</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+		<div class="container">
+
+			
+			 <div class="entry ">
+			   <h2>Summary</h2>
+
+<p>Applied Predictive Technologies&#39; software helps businesses run internal experiments on offline data like in-store purchases. In this case competition, a client was interested in determining the effect of several varieties of poster campaign on profits. We used hypothesis testing on several months of sales data from a test and control group to determine whether various iterations of a sales campaign had a positive effect on profits. Our presentation won third place. </p>
+
+<p><a href="abbeychaver.github.io/img/portfolio/APT_Presentation.pdf">The full slides are available here.</a></p>
+
+<h2>Project Outline</h2>
+
+<ul>
+<li><p>Identify possible confounding variables available in data set</p></li>
+<li><p>Verify that treatment group and control group have similar distributions of possible confounding variables</p></li>
+<li><p>Plot and compare profits by product across treatment and control groups</p></li>
+<li><p>Choose best statistic for hypothesis test: percent mean difference for each store over weeks before and weeks after campaign.</p></li>
+<li><p>Run t-tests on each campaign</p></li>
+<li><p>Check correlations between test statistic and possible confounding variables</p></li>
+<li><p>Analyze relationship between sales of different products to determine overall effect on products</p></li>
+<li><p>Provide recommendation for continuing poster campaign</p></li>
+</ul>
+
+<h2>Tools</h2>
+
+<p>For modeling and plotting, we used R and Python, including Pandas for some data manipulation and standardization. </p>
+
+			
+			 </div>  
+    
+  		</div>
+		    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <ul class="list-inline">
+                            
+                            <li>
+                                <a href="http://twitter.com/abbeychaver" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+		                    
+                            <li>
+                                <a href="https://github.com/abbeychaver" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                            </li>
+		                    
+                            <li>
+                                <a href="https://www.linkedin.com/pub/abbey-chaver/38/3a7/8a5" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+		                    
+                        </ul>
+                    </div>
+                    <div class="row footer-col ">
+                        <div class="col-md-4 col-md-push-4 copyright">
+                            Copyright &copy; Abigail Chaver 2017
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+		 <!-- jQuery Version 1.11.0 -->
+    <script src="/js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="/js/jquery.easing.min.js"></script>
+    <script src="/js/classie.js"></script>
+    <script src="/js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="/js/jqBootstrapValidation.js"></script>
+    
+    <script src="/js/contact_me_static.js"></script>
+    
+
+    <!-- Custom Theme JavaScript -->
+    <script src="/js/freelancer.js"></script>
+
+	</body>
+</html>

@@ -6,6 +6,8 @@
 
 body {
     overflow-x: hidden;
+
+
 }
 
 p {
@@ -24,7 +26,9 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #CA314B;
+    color:  #{{ site.color.secondary }};
+    /*CA314B;*/
+
 }
 
 
@@ -34,16 +38,13 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-family: Quicksand,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
-    text-align: center
-}
-
-h6 {
-    font-weight: 700;
-    padding-top: 30px;
-    padding-bottom: 0px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:  #{{ site.color.primary }};
 }
 
 hr.star-light,
@@ -94,12 +95,12 @@ header {
     color: #fff;
     background-image: url(img/SF.png);
     background-size: cover;
-    height: 400px;
+    height: 500px;
 }
 
 header .container {
     padding-bottom: 80px;
-    padding-top: 280px;
+    padding-top: 150px;
     
 }
 
@@ -107,12 +108,18 @@ header .container {
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    font-weight: 700;
+    
+}
+
+header .intro-text .name:hover{
+    color: #{{ site.color.primary }};
 }
 
 header .intro-text .skills {
     font-size: 1.8em;
     font-weight: 300;
+    color: white;
+    text-align: left;
 
 }
 
@@ -140,7 +147,7 @@ header .intro-text .skills {
         -moz-transition: padding .3s;
         transition: padding .3s;
         
-        color: #362A29;
+        color: #{{ site.color.primary }};
     }
 
     .navbar-fixed-top .navbar-brand {
@@ -164,7 +171,7 @@ header .intro-text .skills {
     text-transform: uppercase;
     font-family: Quicksand,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
-    color: #362A29;
+    color: #{{ site.color.primary }};
     background-color: rgba(255,255,255, 1);
     
 }
@@ -175,47 +182,54 @@ header .intro-text .skills {
 }
 
 .navbar a:hover {
-    color: #811C2D;
+    color: #{{ site.color.secondary }};
     font-weight: 700;
 }
 
-.navbar .navbar-nav {
+.navbar .navbar-nav li {
     letter-spacing: 1px;
-    color: #362A29;
+    color: #{{ site.color.primary }};
 }
 
 .navbar .navbar-nav li a:focus {
     outline: 0;
+    color: #{{ site.color.primary }};
     
 }
 
 .navbar-default,
 .navbar-inverse {
+    color: #{{ site.color.primary }};
     
 }
 
 .navbar-brand:hover {
-    color: #811C2D;
+    color: #{{ site.color.secondary }};
 }
 
 .navbar-toggle:hover {
     
-    background-color: rgba(129,28,45,0.2);
+    background-color: {{ site.color.secondary }};
 }
 
 section {
-    padding: 70px 0;
+    padding: 30px 0;
 }
 
 section h2 {
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     font-size: 3em;
 }
 
 section.success {
-    color: #362A29;
-    background: #{{ site.color.primary }};
+
+    background-color: #{{ site.color.primary }};
+    color: white;
 }
+
+section.success h1 {
+        color: white;
+    }
 
 @media(max-width:767px) {
     section {
@@ -231,10 +245,21 @@ section.success {
     margin: 0 auto 0 auto;
 }
 
+
+#portfolio {
+    background-color: #{{ site.color.light }};
+}
+
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
     
+}
+
+#portfolio .portfolio-wrap {
+    background-color: white;
+    padding: 10px;
+    color:#{{ site.color.primary }};
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -250,7 +275,7 @@ section.success {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(54,42,41,.95);
+    background:  #{{ site.color.primary }};
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -262,11 +287,11 @@ section.success {
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
     position: absolute;
-    top: 40%;
+    top: 10%;
     width: 100%;
     height: 20px;
-    margin-top: -12px;
-    text-align: center;
+    margin-top: 0px;
+    text-align: left;
     font-size: 20px;
     color: #fff;
     padding-right: 15px;
@@ -286,6 +311,12 @@ section.success {
     z-index: 2;
 }
 
+.post-heading {
+    color: white;
+    text-align: left;
+    width: 50%;
+}
+
 @media(min-width:767px) {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
@@ -294,9 +325,9 @@ section.success {
 
 .btn-outline {
     margin-top: 15px;
-    border: solid 2px #362A29;
+    border: solid 2px #{{ site.color.primary }};
     font-size: 20px;
-    color: #362A29;
+    color: #{{ site.color.primary }};
     background: 0 0;
     text-transform: uppercase;
     transition: all .3s ease-in-out;
@@ -305,19 +336,20 @@ section.success {
 .btn-outline:hover,
 .btn-outline:focus,
 .btn-outline:active {
-    border: solid 2px #362A29;
-    color: #362A29;
+    border: solid 2px #1E247B;
+    color: #1E247B;
     background: #fff;
 }
 .btn-outline:focus, {
-    border: solid 2px #362A29;
-    color: #362A29;
+    border: solid 2px #1E247B;
+    color: #1E247B;
 }
 
 .btn-resume {
     text-transform: uppercase;
     font-size: 14px;
     padding: 15px 50px 15px 50px;
+    background-color: #{{ site.color.light }};
 
 }
 
@@ -371,7 +403,7 @@ section.success {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #{{ site.color.primary }};
+    color: #1E247B;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -380,6 +412,9 @@ form .row:first-child .floating-label-form-group {
 
 footer {
     color: #fff;
+    margin-bottom: -142px;
+    position: relative;
+    width: 100%
 }
 
 footer h3 {
@@ -388,7 +423,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #{{ site.color.secondary }};
+    background-color: #{{ site.color.primary }};
 }
 
 footer .footer-col {
@@ -396,7 +431,7 @@ footer .footer-col {
 }
 
 footer .footer-below {
-     background-color: #{{ site.color.secondary-dark }};
+     background-color: #{{ site.color.primary }};
      font-weight: 100;
 
 }
@@ -416,6 +451,11 @@ footer .footer-below {
     font-size: 20px;
     line-height: 45px;
     color: white;
+}
+
+.btn-success:hover {
+    background-color: #{{ site.color.primary }};
+
 }
 
 .btn:focus,
@@ -448,7 +488,7 @@ footer .footer-below {
 
 .entry {
     padding: 100px 0;
-    color: #{{ site.color.secondary-dark }};
+    color: #{{ site.color.primary }};
     font-weight: 400;
 }
 
@@ -470,7 +510,7 @@ footer .footer-below {
 }
 .title {
     color: white;
-    background-color: #{{ site.color.secondary-dark }};
+    background-color: #{{ site.color.primary }};
 }
 .portfolio-modal .modal-content {
     padding: 100px 0;
@@ -515,7 +555,7 @@ footer .footer-below {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #{{ site.color.secondary }};
+    background-color:  #{{ site.color.primary }};
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -525,7 +565,7 @@ footer .footer-below {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #{{ site.color.secondary }};
+    background-color: #{{ site.color.primary }};
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Classifying the Emails of HRC</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Data Science at UC Berkeley">
+    <link rel="canonical" href="http://localhost:4000/2014/07/16/HRC.html">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
+
+    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link rel="stylesheet" href="/style.css">
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css">
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:100,300,400,700,300italic" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
+    
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+	<body>
+		   <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    MENU
+                </button>
+                <a class="navbar-brand" href="http://localhost:4000#page-top">Abigail Chaver</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="http://localhost:4000#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="http://localhost:4000#portfolio">Projects</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="http://localhost:4000#about">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="http://localhost:4000#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+<header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                
+                    <div class="intro-text ">
+                        
+                        <h1 class="post-heading">Classifying the Emails of HRC</h1>
+                        <h3 class="post-heading">Comparing SVM and Random Forest with text processing</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+		<div class="container">
+
+			
+			 <div class="entry ">
+			   <h2>Summary</h2>
+
+<p>In this project for a Machine Learning class, we used a document term matrix generated from about 3500 emails, with sender labels, to train SVM and Random Forest classifiers. Since we were dealing with about 9000 predictors, using RF to do some feature selection yielded the best estimated MSE. Our test accuracy was 76%.</p>
+
+<h2>Project Outline</h2>
+
+<ul>
+<li><p>Preprocess data by removing numerals, punctuation, and cases.</p></li>
+<li><p>Convert words to stems</p></li>
+<li><p>Produce document term matrix, (a frequency matrix where each email is one row and each word is a column) - about 28,000 features</p></li>
+<li><p>Set bounds on frequencies to reduce features down to about 9,000</p></li>
+<li><p>Use univariate ANOVA to select some additional possibly relevant features such as length of email or use of certain punctutation</p></li>
+<li><p>Try Feature selection methods such as Boruta Algorithm</p></li>
+<li><p>Tune RF models with three different values for number of trees and number of features considered at each branch</p></li>
+<li><p>Shrink features by using importance measure (node purity)</p></li>
+<li><p>Try Topic Modeling with Latent Dirichlet Allocation to reduce feature space </p></li>
+<li><p>Try SVM model with radial, linear, and quadratic kernal functions</p></li>
+<li><p>Tune cost and gamma parameters</p></li>
+<li><p>Use K-Means Clustering to explore important characteristics</p></li>
+<li><p>Compare SVM and RF error rates to select final model - RF performed better</p></li>
+<li><p>Produce predictions for test set</p></li>
+</ul>
+
+<h2>Tools</h2>
+
+<p>All scripting was performed in R. We used the tm package for text processing, e1071 for SVM, and randomForest. We also tried some feature selection using boruta and topicmodels. Most plotting was done with ggplot2. The deliverable for the project was the full github repository our team used to collaborate, which includes data, scripts, and written reports.</p>
+
+<p><a href="https://github.com/renswny/STAT154-Group04">See the Repo Here.</a></p>
+
+			
+			 </div>  
+    
+  		</div>
+		    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <ul class="list-inline">
+                            
+                            <li>
+                                <a href="http://twitter.com/abbeychaver" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+		                    
+                            <li>
+                                <a href="https://github.com/abbeychaver" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                            </li>
+		                    
+                            <li>
+                                <a href="https://www.linkedin.com/pub/abbey-chaver/38/3a7/8a5" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+		                    
+                        </ul>
+                    </div>
+                    <div class="row footer-col ">
+                        <div class="col-md-4 col-md-push-4 copyright">
+                            Copyright &copy; Abigail Chaver 2017
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+		 <!-- jQuery Version 1.11.0 -->
+    <script src="/js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="/js/jquery.easing.min.js"></script>
+    <script src="/js/classie.js"></script>
+    <script src="/js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="/js/jqBootstrapValidation.js"></script>
+    
+    <script src="/js/contact_me_static.js"></script>
+    
+
+    <!-- Custom Theme JavaScript -->
+    <script src="/js/freelancer.js"></script>
+
+	</body>
+</html>

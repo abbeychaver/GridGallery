@@ -1,0 +1,51 @@
+---
+layout: post
+modal-id: 3
+date: 2014-07-16
+img: rf_cv.png
+alt: image-alt
+project-date: Dec 2015
+description: Comparing SVM and Random Forest with text processing
+title: Classifying the Emails of HRC
+---
+
+
+## Summary
+
+In this project for a Machine Learning class, we used a document term matrix generated from about 3500 emails, with sender labels, to train SVM and Random Forest classifiers. Since we were dealing with about 9000 predictors, using RF to do some feature selection yielded the best estimated MSE. Our test accuracy was 76%.
+
+## Project Outline
+
+- Preprocess data by removing numerals, punctuation, and cases.
+
+- Convert words to stems
+
+- Produce document term matrix, (a frequency matrix where each email is one row and each word is a column) - about 28,000 features
+
+- Set bounds on frequencies to reduce features down to about 9,000
+
+- Use univariate ANOVA to select some additional possibly relevant features such as length of email or use of certain punctutation
+
+- Try Feature selection methods such as Boruta Algorithm
+
+- Tune RF models with three different values for number of trees and number of features considered at each branch
+
+- Shrink features by using importance measure (node purity)
+
+- Try Topic Modeling with Latent Dirichlet Allocation to reduce feature space 
+
+- Try SVM model with radial, linear, and quadratic kernal functions
+
+- Tune cost and gamma parameters
+
+- Use K-Means Clustering to explore important characteristics
+
+- Compare SVM and RF error rates to select final model - RF performed better
+
+- Produce predictions for test set
+
+## Tools
+
+All scripting was performed in R. We used the tm package for text processing, e1071 for SVM, and randomForest. We also tried some feature selection using boruta and topicmodels. Most plotting was done with ggplot2. The deliverable for the project was the full github repository our team used to collaborate, which includes data, scripts, and written reports.
+
+[See the Repo Here.](https://github.com/renswny/STAT154-Group04)

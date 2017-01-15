@@ -2,21 +2,17 @@
 title: Abigail Chaver
 email: abigailchaver@berkeley.edu
 url: http://abbeychaver.github.io
-description: "Product Designer graduating from UC Berkeley"
+description: "Data Science at UC Berkeley"
 
 # Contact form: comment the line below if you want to stick with the default PHP contact form
 contact: static
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: F7E7E9 #18bc9c #80B3FF
-  secondary: 811C2D #2c3e50 #FD6E8A
-  secondary-dark: 362A29 #233140 #A2122F
-  brand-pink: F7E7E9;
-  brand-burgundy: 811C2D;
-  brand-brown: 362A29;
-  butter: 7AA34C;
-  tripstigator: 501E1D;
+  primary: 272F65; #indigo
+  secondary: 56CCF2; #bright blue
+  secondary-dark: 8E91BD; #233140 #A2122F
+  light: E8E9F2;
 
 # Footer settings
 footer:
@@ -33,14 +29,14 @@ social:
     #url: http://stackoverflow.com/questions/tagged/jekyll
   #- title: bitbucket
     #url: http://bitbucket.org/jekyll
-  #- title: github
-    #url: http://github.com/jekyll
+  - title: github
+    url: https://github.com/abbeychaver
   - title: linkedin
     url: https://www.linkedin.com/pub/abbey-chaver/38/3a7/8a5
 
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+#credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
 markdown: redcarpet

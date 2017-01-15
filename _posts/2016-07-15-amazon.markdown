@@ -1,0 +1,49 @@
+---
+layout: post
+modal-id: 4
+date: 2014-07-15
+img: amazon.png
+alt: image-alt
+project-date: April 2014
+description: Modeling Costs for Last-mile Delivery
+title: Optimizing Contracts for Amazon Logistics
+---
+
+## Summary
+
+This case competition was put on by Amazon Logistics' Research team. The challenge was to determine what wage to offer three different types of truck-driver for last-mile delivery (delivery from distribution center to home). 
+
+
+Each type of driver had a different level of risk associated with their wage: 
+
+- guaranteed drivers are paid whether or not there are packages available
+
+- option drivers are paid a reservation price but not a full wage if there are no packages for them to deliver
+
+- spot drivers are paid only if there are packages for them to deliver. 
+
+Given a normal distribution of packages, we needed to model profits as a function of the wages offered to different drivers. We used game theory to formulate a nonlinear optimization problem. Our two-person team won second place.
+
+## Project Outline
+
+- Background research on wages for truck drivers
+
+- Understand that implicit in the challenge is deciding how many of each type of driver to hire
+
+- Propose that drivers will accept or reject a contract based on their perceived risk of not getting hired (ie, they will demand a risk premium if their wage is not guaranteed)
+
+- Define variables, such as the day's demand and wage paid to each driver type
+
+- Define parameters such as the market wage and the probability of getting hired by another company
+
+- Define relating equations based on classical risk aversion functions and the normal distribution
+
+- Model Total Expected Cost as a function of the wage variables, using relationships defined previously to eliminate other variables
+
+- Perform a grid search to find the wages that minimize Total Expected Cost
+
+## Tools and Models
+
+Much of the work was formulating the model, which was done analytically (math by hand). Our final optimization was a fairly complicated nonlinear model. In order to do any optimization, we needed to build a model in R so that we could perform a grid search.
+
+[The six-page white paper, with mathematical and code appendix, is available here.](abbeychaver.github.io/img/portfolio/Amazon_Collider_Project.pdf)

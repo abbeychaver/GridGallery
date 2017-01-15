@@ -1,0 +1,39 @@
+---
+layout: post
+modal-id: 5
+date: 2016-05-14
+img: APT.png
+alt: image-alt
+project-date: Spring 2016
+
+description: APT Case Competition on Time Series Data
+title: Hypothesis Testing on Sales
+---
+
+## Summary
+
+Applied Predictive Technologies' software helps businesses run internal experiments on offline data like in-store purchases. In this case competition, a client was interested in determining the effect of several varieties of poster campaign on profits. We used hypothesis testing on several months of sales data from a test and control group to determine whether various iterations of a sales campaign had a positive effect on profits. Our presentation won third place. 
+
+[The full slides are available here.](abbeychaver.github.io/img/portfolio/APT_Presentation.pdf)
+
+## Project Outline
+
+- Identify possible confounding variables available in data set
+
+- Verify that treatment group and control group have similar distributions of possible confounding variables
+
+- Plot and compare profits by product across treatment and control groups
+
+- Choose best statistic for hypothesis test: percent mean difference for each store over weeks before and weeks after campaign.
+
+- Run t-tests on each campaign
+
+- Check correlations between test statistic and possible confounding variables
+
+- Analyze relationship between sales of different products to determine overall effect on products
+
+- Provide recommendation for continuing poster campaign
+
+## Tools
+
+For modeling and plotting, we used R and Python, including Pandas for some data manipulation and standardization. 

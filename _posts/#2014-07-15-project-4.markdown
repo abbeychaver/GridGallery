@@ -4,9 +4,22 @@ modal-id: 4
 date: 2014-07-15
 img: amazon.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
+project-date: Dec 2014
 description: 2nd place in a logistics optimization competition.
-title: Amazon White Paper
+title: Optimizing Wage Contracts for Last-Mile Delivery
 ---
+
+# Optimizing Wage Contracts for Last-Mile Delivery
+### 2nd place in a logistics optimization competition
+
+###### Summary
+
+This was a short-term (around one week) open-ended project to design an optimal wage policy for different types of shipping contracts. We developed a model based on game theory and to determine the optimal wages to offer in order to minimize costs and undelivered packages. After discussing our model in front of a panel of Amazon logistics researchers, our six page white paper was awarded second place.
+
+###### Models and Tools
+
+Our model was built in R, with optimum values determined through graph search.
+
+[Here's](abbeychaver.github.io/img/portfolio/Amazon_Collider_Project.pdf) the six page paper, with a code appendix.
+
+The full repo is available [here](https://github.com/abbeychaver/stat159-project3). 
