@@ -5,14 +5,14 @@ date: 2014-07-16
 img: rf_cv.png
 alt: image-alt
 project-date: Dec 2015
-description: Comparing SVM and Random Forest with text processing
+description: Comparing SVM and Random Forest as predictors for text
 title: Classifying the Emails of HRC
 ---
 
 
 ## Summary
 
-In this project for a Machine Learning class, we used a document term matrix generated from about 3500 emails, with sender labels, to train SVM and Random Forest classifiers. Since we were dealing with about 9000 predictors, using RF to do some feature selection yielded the best estimated MSE. Our test accuracy was 76%.
+In this project for a Machine Learning class, we used a document term matrix generated from about 3500 emails, with sender labels, to train SVM and Random Forest classifiers. Since we were dealing with about 9000 predictors, using RF to do some feature selection yielded the best estimated MSE. Our test accuracy was 76%. [See the Repo Here.](https://github.com/renswny/STAT154-Group04)
 
 ## Project Outline
 

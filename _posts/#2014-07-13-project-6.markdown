@@ -1,12 +1,10 @@
 ---
 layout: post
 modal-id: 6
-date: 2014-07-15
+date: 2016-05-15
 img: branch-graphics.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Print and digital promotional graphics.
-title: Branch Graphics
+
+description: Designing and conducting a split-plot experiment 
+title: Risk Tolerance Experiment
 ---
+
