@@ -46,4 +46,4 @@ Given a normal distribution of packages, we needed to model profits as a functio
 
 Much of the work was formulating the model, which was done analytically (math by hand). Our final optimization was a fairly complicated nonlinear model. In order to do any optimization, we needed to build a model in R so that we could perform a grid search.
 
-[The six-page white paper, with mathematical and code appendix, is available here.](abbeychaver.github.io/img/portfolio/Amazon_Collider_Project.pdf)
+[The six-page white paper, with mathematical and code appendix, is available here.](/img/portfolio/Amazon_Collider_Project.pdf)
